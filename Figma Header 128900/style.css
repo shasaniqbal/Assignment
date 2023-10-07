@@ -1,0 +1,307 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  
+}
+.main{
+    width: 100%;
+    background-color: gray;
+
+}
+.maincont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.header{
+    width: 45%;
+    border: 1px solid red;
+    margin-top: 10%;
+    background-color: bisque;
+    
+ 
+  
+}
+
+.navbar{width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+justify-content: space-around;
+
+}
+.navbar ul li{
+    float: left;
+    padding: 10px;
+    list-style: none;
+
+}
+.heading{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.heading h1{
+   color: rgb(255, 166, 0);
+}
+.seccont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.seccontchild{
+    width: 32%;
+    height: 250px;
+    border: 1px solid red;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./image/Big\ data.png);
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+   
+
+}
+
+.seccontchild1{
+    width: 32%;
+    height: 250px;
+    border: 1px solid red;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./image/watch\ boardway.png);
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+
+   
+
+
+}
+.seccontchild2{
+    width: 32%;
+    height: 250px;
+    border: 1px solid red;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./image/Find\ your\ desing.png);
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+
+}
+#secbutton{
+    background-color: orange;
+    border: none;
+    height: 25px;
+    border-radius: 12px;
+    color: white;
+    width: 90px;
+}
+.head2sec{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    height: 250px;
+    /* border: 1px solid red; */
+    margin-bottom: 5%;
+
+}
+.head2secleft{
+    width: 47%;
+}
+.head2secleft h1{
+    font-size: x-large;
+    margin-left: 20%;
+
+}
+.head2secright{
+    width: 47%;
+
+}
+.head2secright img{
+    width: 250px;
+    margin-left: 10%;
+}
+.head2secleft p{
+    font-size: x-small;
+    margin-left: 20%;
+    color: gray;
+    margin-top: 2%;
+}
+.head2secleft button{
+    margin-left: 20%;
+    margin-top: 5%;
+    color: white;
+    background-color: rgba(122, 171, 202, 0.759);
+    border: none;
+    width: 90px;
+    border-radius: 12px;
+    height: 25px;
+
+}
+#thirdbutton{
+    color: white;
+    background-color: rgb(152, 96, 204);
+    width: 90px;
+    border-radius: 12px;
+    height: 25px;
+    border: none;
+}
+.head3sec{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    height: 250px;
+    /* border: 1px solid red; */
+    margin-bottom: 5%;
+
+
+}
+.head3secleft{
+    width: 47%;
+   
+}
+.head3secleft h1{
+    font-size: x-large;
+    margin-left: 20%;
+
+}
+.head3secleft p{
+    font-size: x-small;
+    margin-left: 20%;
+    color: gray;
+    margin-top: 2%;
+
+}
+.head3secright{
+    width: 47%;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./image/work\ reomtely\ Splines.png);
+    background-size: cover;
+
+    background-position: center center;
+    position: relative;
+
+}
+.head3secright img{
+    width: 250px;
+    margin-top: 18%;
+
+}
+.head3secleft input{
+    margin-left: 20%;
+    margin-top: 2%;
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+}
+#fourbutton{
+
+    color: white;
+    background-color: rgba(17, 53, 233, 0.851);
+    width: 90px;
+    border-radius: 12px;
+    height: 25px;
+    border: none;
+}
+.head4sec{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    height: 250px;
+    /* border: 1px solid red; */
+    margin-bottom: 5%;
+
+
+}
+.head4secleft{
+    width: 47%;
+   
+}
+.head4secleft h1{
+    font-size: medium;
+    margin-left: 20%;
+
+}
+.head4secleft p{
+    font-size: x-small;
+    margin-left: 20%;
+    color: gray;
+    margin-top: 5%;
+}
+
+/* .head4secright img{
+    width: 60%;
+    margin-left: 30%;
+    margin-top: 2%;
+
+} */
+.head4secright{
+display: flex;
+flex-direction: column;
+align-items: center;
+background-image: url(./image/Admin\ Dashboard.png);
+width: 45%;
+height: 110%;
+background-size: cover;
+background-position: center center;
+position: relative;
+margin-top: 7%;
+margin-left: 8%;
+}
+
+
+
+.head4sec button{
+    margin-left: 20%;
+    margin-top: 5%;
+    color: white;
+    background-color: rgba(17, 53, 233, 0.851);
+    border: none;
+    width: 90px;
+    border-radius: 12px;
+    height: 25px;
+
+
+}
+#header2{
+    background-color: white;
+}
+#header3{
+    background-color: rgba(0, 183, 255, 0.655);
+
+}
+#header4{
+    background-color: rgba(107, 219, 229, 0.878);
+
+}
+
